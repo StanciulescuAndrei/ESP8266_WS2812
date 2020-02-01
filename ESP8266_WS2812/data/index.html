@@ -1,0 +1,36 @@
+<html> 
+    <head>
+        <style>
+            button{
+                height: 25%;
+                width: 30%;
+                margin-left: 1%;
+                margin-right: 1%;
+                margin-top: 1%;
+                margin-bottom: 1%;
+            }
+        </style>
+    </head>
+    <title> 
+        Caciula lui Stanciu 
+    </title> 
+    <body> 
+        <h1 align="center"> 
+            Pagina principala 
+        </h1> 
+        <h2 align="left"> 
+            Alege modul de functionare 
+        </h2> 
+        <iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"></iframe>
+        <form target="dummyframe" action="/LED" method="POST">
+            <button type="submit" name="mode" id="0" value="0">0</button> 
+            <button type="submit" name="mode" id="1" value="1">1</button> 
+            <button type="submit" name="mode" id="2" value="2">2</button> 
+            <br> 
+            <button type="submit" name="mode" id="3" value="3">3</button> 
+            <button type="submit" name="mode" id="4" value="4">4</button> 
+            <button type="submit" name="mode" id="5" value="5">5</button> 
+            <br> 
+       </form>
+    </body> 
+</html>
